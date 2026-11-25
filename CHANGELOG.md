@@ -1,5 +1,26 @@
 # Changelog
 
+## [26.138.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v26.137.0...v26.138.0) (2026-11-25)
+
+
+### Features
+
+* **add:** 929003736801 ([#13931](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13931)) ([79c3cdd](https://github.com/Koenkk/zigbee-herdsman-converters/commit/79c3cddc7ee181901e8d3c99ad907c1e518102b2))
+* **add:** EPT-A30Z/GY-PL ([#13926](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13926)) ([1b924a8](https://github.com/Koenkk/zigbee-herdsman-converters/commit/1b924a8052dce2e7c9901f49d08974685a3da35e))
+* **add:** ZB-MPL01, ZB-WC02 ([#13935](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13935)) ([64c312d](https://github.com/Koenkk/zigbee-herdsman-converters/commit/64c312d6513d6229c23f12db21cddb2df1bedb03))
+* Schneider Electric EKO07259: expose ambient and floor temperature ([#13911](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13911)) ([a24e082](https://github.com/Koenkk/zigbee-herdsman-converters/commit/a24e082427e86943914182ba1bfdeddcc4788654))
+* teelicht pro teelicht: support OTA updates and expose `radio_power` ([#13940](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13940)) ([5ef9816](https://github.com/Koenkk/zigbee-herdsman-converters/commit/5ef981623f28edb78ff9fc675055ddf5e3cd00ff))
+* Thermosphere TS0601_thermostat_thermosphere: support weekly heating schedules ([#13898](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13898)) ([9a1fd5d](https://github.com/Koenkk/zigbee-herdsman-converters/commit/9a1fd5db1fea1cb9e98c933d3cdfc2f4ea209021))
+
+
+### Bug Fixes
+
+* **detect:** Detect `_TZ3000_npg02xft` as EMOS IP-3010S ([#13938](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13938)) ([6e764d1](https://github.com/Koenkk/zigbee-herdsman-converters/commit/6e764d1df7c42f0a8b2b0a2aca6d6fac2c6000e0))
+* **detect:** Detect `HK-LN-SOCKET-EU` as Sunricher SR-ZG9023A-EU ([#13937](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13937)) ([80e9dd8](https://github.com/Koenkk/zigbee-herdsman-converters/commit/80e9dd875ac9def6e4cf83d75b1f08329435ab4d))
+* **detect:** Detect `SNZT-02B` as SONOFF SNZT-02B ([#13939](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13939)) ([933456b](https://github.com/Koenkk/zigbee-herdsman-converters/commit/933456bdea23cc49f6b01850507ffbb18c46edb6))
+* NodOn TRV-4-1-00: report valve opening and heating demand correctly, restore child lock and mirror display control, expose error status ([#13907](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13907)) ([beae9ca](https://github.com/Koenkk/zigbee-herdsman-converters/commit/beae9caf4a42c7020c75bc1cea5af5ecb86d50a1))
+* Zemismart ZMP1: fix cover state staying opening or closing after the motor stops ([#13933](https://github.com/Koenkk/zigbee-herdsman-converters/issues/13933)) ([3ecf966](https://github.com/Koenkk/zigbee-herdsman-converters/commit/3ecf966da82b984ab72d8857210f9d3f6352316c))
+
 ## [26.137.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v26.136.0...v26.137.0) (2026-11-24)
 
 
